@@ -11,7 +11,7 @@ def call(Map parameters) {
              strategy: [
                $class: 'LogRotator', 
                daysToKeepStr: '90',
-               numToKeepStr: '50',
+               numToKeepStr: '10',
                artifactDaysToKeepStr: '90',
                artifactNumToKeepStr: '50'
   ]])
